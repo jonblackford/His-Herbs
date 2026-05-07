@@ -1,24 +1,26 @@
-FILES INCLUDED FOR GITHUB PAGES
-
-Required site files:
-- index.html
-- assets/greenhouse-mums.webp
-- assets/inside-greenhouse-plants.webp
-- assets/hanging-baskets.webp
-- assets/garden-shop.webp
-- assets/strawberry-starts.webp
-- assets/montrose-sign.webp
-- assets/storefront.webp
-- assets/outdoor-plant-tables.webp
-- assets/favicon.svg
-- site.webmanifest
-- robots.txt
-- .nojekyll
-- 404.html
-
-Helpful documentation:
-- README.md
-- PUBLISH_TO_GITHUB.md
-- EDITING_GUIDE.md
-- BUSINESS_INFO.md
-- FILES_INCLUDED.txt
+index.html
+content/site.json
+.pages.yml
+netlify.toml
+.nojekyll
+404.html
+robots.txt
+site.webmanifest
+thank-you/index.html
+assets/favicon.svg
+assets/garden-shop.webp
+assets/greenhouse-mums.webp
+assets/hanging-baskets.webp
+assets/inside-greenhouse-plants.webp
+assets/montrose-sign.webp
+assets/outdoor-plant-tables.webp
+assets/storefront.webp
+assets/strawberry-starts.webp
+assets/uploads/.gitkeep
+README.md
+NETLIFY_SETUP.md
+CONTACT_FORM_NETLIFY_GUIDE.md
+PAGES_CMS_SETUP.md
+CLIENT_EDITING_GUIDE.md
+FREE_PLATFORM_RECOMMENDATION.md
+FILES_INCLUDED.txt
