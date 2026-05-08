@@ -1,6 +1,6 @@
 {
   "business": {
-    "name": "Montrose Greenhouse \u2014 His & Herbs",
+    "name": "Montrose Greenhouse — His & Herbs",
     "shortName": "His & Herbs",
     "tagline": "Full-service florist & seasonal greenhouse",
     "phone": "(810) 639-4750",
@@ -14,10 +14,8 @@
   },
   "home": {
     "eyebrow": "Rooted in Montrose, open all four seasons",
-    "headline": "Flowers, plants, herbs & hometown help for every season.",
-    "intro": "Montrose Greenhouse \u2014 His & Herbs is a welcoming local florist and seasonal greenhouse in Montrose, Michigan. Stop in for fresh floral arrangements, colorful annuals, herbs, garden plants, hanging baskets, seasonal favorites, and friendly guidance for your home, garden, gifts, and special occasions.",
-    "primaryCta": "Start a floral request",
-    "secondaryCta": "Explore the greenhouse",
+    "headline": "Grow Something Beautiful.",
+    "intro": "Montrose Greenhouse — His & Herbs is a welcoming local florist and seasonal greenhouse in Montrose, Michigan. Stop in for fresh floral arrangements, colorful annuals, herbs, garden plants, hanging baskets, seasonal favorites, and friendly guidance for your home, garden, gifts, and special occasions.",
     "seasonNoteTitle": "Fresh selections change with the season",
     "seasonNoteText": "From spring starts and summer blooms to fall mums and winter floral gifts, the shop is always worth a visit."
   },
@@ -37,23 +35,23 @@
   ],
   "services": [
     {
-      "icon": "\ud83d\udc90",
+      "icon": "💐",
       "title": "Florist Services",
       "text": "Fresh flowers and custom arrangements for birthdays, anniversaries, sympathy, holidays, events, dances, and thoughtful just-because gifts.",
       "link": "/florist/",
       "linkText": "Florist details"
     },
     {
-      "icon": "\ud83c\udf3f",
+      "icon": "🌿",
       "title": "Greenhouse Plants",
       "text": "Seasonal plants of many types, including annuals, herbs, vegetable starts, hanging baskets, patio color, mums, and garden favorites.",
       "link": "/greenhouse/",
       "linkText": "Greenhouse details"
     },
     {
-      "icon": "\ud83e\udeb4",
+      "icon": "🪴",
       "title": "Gifts & Seasonal Favorites",
-      "text": "Plants, planters, porch-ready color, seasonal d\u00e9cor, and easy gifts that feel personal and local.",
+      "text": "Plants, planters, porch-ready color, seasonal décor, and easy gifts that feel personal and local.",
       "link": "/seasons/",
       "linkText": "View seasons"
     }
@@ -61,7 +59,7 @@
   "floristServices": [
     {
       "title": "Everyday arrangements",
-      "text": "Brighten someone\u2019s day with a custom bouquet or arrangement made for birthdays, anniversaries, thank-you gifts, congratulations, or just because."
+      "text": "Brighten someone’s day with a custom bouquet or arrangement made for birthdays, anniversaries, thank-you gifts, congratulations, or just because."
     },
     {
       "title": "Sympathy & memorial flowers",
@@ -69,7 +67,7 @@
     },
     {
       "title": "Holiday flowers",
-      "text": "Seasonal centerpieces, festive bouquets, gift plants, and arrangements for Christmas, Valentine\u2019s Day, Easter, Mother\u2019s Day, Thanksgiving, and more."
+      "text": "Seasonal centerpieces, festive bouquets, gift plants, and arrangements for Christmas, Valentine’s Day, Easter, Mother’s Day, Thanksgiving, and more."
     },
     {
       "title": "School dances & special events",
@@ -192,7 +190,7 @@
   ],
   "about": {
     "headline": "A local greenhouse and florist with a four-season heart.",
-    "intro": "Montrose Greenhouse \u2014 His & Herbs serves the Montrose area with a mix of floral design, greenhouse plants, herbs, seasonal color, plant gifts, and helpful hometown service.",
+    "intro": "Montrose Greenhouse — His & Herbs serves the Montrose area with a mix of floral design, greenhouse plants, herbs, seasonal color, plant gifts, and helpful hometown service.",
     "body": [
       "The business brings together two things people love: flowers for meaningful moments and plants that make homes, porches, patios, gardens, and gifts feel alive. Whether someone needs a sympathy arrangement, a cheerful bouquet, spring planting help, fall mums, or a seasonal gift, the shop is designed to feel approachable and useful.",
       "Selections naturally change throughout the year, which is part of what makes a greenhouse fun to visit. Customers can stop by to see what is fresh, call ahead for current availability, or use the contact form to start a floral or plant request."
@@ -220,8 +218,8 @@
     "budgetRanges": [
       "Not sure yet",
       "Under $50",
-      "$50\u2013$100",
-      "$100\u2013$200",
+      "$50–$100",
+      "$100–$200",
       "$200+"
     ],
     "preferredContact": [
