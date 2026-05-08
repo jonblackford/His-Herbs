@@ -1,93 +1,234 @@
 {
-  "businessName": "Montrose Greenhouse — His & Herbs",
-  "tagline": "Florist • greenhouse • garden shop",
-  "heroTitle": "A warm little greenhouse for every season.",
-  "heroText": "Visit Montrose Greenhouse — His & Herbs for fresh floral work, beautiful seasonal plants, herbs, gifts, and friendly help choosing something that feels just right.",
-  "announcement": "Open all four seasons. Call for current hours and what’s fresh this week.",
-  "primaryButtonText": "Call the Greenhouse",
-  "secondaryButtonText": "Send a Message",
-  "phone": "(810) 639-4750",
-  "phoneHref": "tel:+18106394750",
-  "address": "11440 Vienna Rd, Montrose, MI 48457",
-  "mapUrl": "https://www.google.com/maps/search/?api=1&query=11440%20Vienna%20Rd%2C%20Montrose%2C%20MI%2048457",
-  "hoursNote": "Open all four seasons. Please call for current seasonal hours.",
-  "facebookUrl": "https://www.facebook.com/p/Montrose-Greenhouse-100063505872551/",
-  "aboutTitle": "Local, colorful, and easy to love.",
-  "aboutText": "Montrose Greenhouse — His & Herbs is a full-service florist and seasonal greenhouse in Montrose, Michigan. Whether you are picking up flowers, planning containers, shopping for herbs, or looking for a gift, the goal is simple: make it feel welcoming, helpful, and beautiful.",
-  "aboutImage": "assets/storefront.webp",
-  "servicesTitle": "How we can help",
-  "servicesIntro": "Simple ways customers can shop, ask questions, and find what they need without feeling overwhelmed.",
+  "business": {
+    "name": "Montrose Greenhouse \u2014 His & Herbs",
+    "shortName": "His & Herbs",
+    "tagline": "Full-service florist & seasonal greenhouse",
+    "phone": "(810) 639-4750",
+    "phoneHref": "tel:+18106394750",
+    "address": "11440 Vienna Rd, Montrose, MI 48457",
+    "addressLine1": "11440 Vienna Rd",
+    "addressLine2": "Montrose, MI 48457",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11440+Vienna+Rd+Montrose+MI+48457",
+    "facebookUrl": "https://www.facebook.com/p/Montrose-Greenhouse-100063505872551/",
+    "hoursNote": "Open all four seasons. Seasonal hours and plant availability may change, so please call before visiting for specific items."
+  },
+  "home": {
+    "eyebrow": "Rooted in Montrose, open all four seasons",
+    "headline": "Flowers, plants, herbs & hometown help for every season.",
+    "intro": "Montrose Greenhouse \u2014 His & Herbs is a welcoming local florist and seasonal greenhouse in Montrose, Michigan. Stop in for fresh floral arrangements, colorful annuals, herbs, garden plants, hanging baskets, seasonal favorites, and friendly guidance for your home, garden, gifts, and special occasions.",
+    "primaryCta": "Start a floral request",
+    "secondaryCta": "Explore the greenhouse",
+    "seasonNoteTitle": "Fresh selections change with the season",
+    "seasonNoteText": "From spring starts and summer blooms to fall mums and winter floral gifts, the shop is always worth a visit."
+  },
+  "introCards": [
+    {
+      "title": "Full-service florist",
+      "text": "Custom floral arrangements for everyday moments, sympathy, holidays, celebrations, dances, gifts, and special requests."
+    },
+    {
+      "title": "Seasonal greenhouse",
+      "text": "Annuals, herbs, vegetable starts, hanging baskets, porch pots, mums, indoor plants, and seasonal garden color."
+    },
+    {
+      "title": "Friendly local service",
+      "text": "Need help choosing the right plant or arrangement? Call or stop in and let the team guide you."
+    }
+  ],
   "services": [
     {
-      "title": "Fresh Flowers",
-      "text": "Arrangements for birthdays, sympathy, holidays, celebrations, everyday kindness, and special requests.",
-      "icon": "💐"
+      "icon": "\ud83d\udc90",
+      "title": "Florist Services",
+      "text": "Fresh flowers and custom arrangements for birthdays, anniversaries, sympathy, holidays, events, dances, and thoughtful just-because gifts.",
+      "link": "/florist/",
+      "linkText": "Florist details"
     },
     {
-      "title": "Seasonal Greenhouse",
-      "text": "Annuals, perennials, herbs, garden starts, hanging baskets, mums, and rotating seasonal favorites.",
-      "icon": "🌿"
+      "icon": "\ud83c\udf3f",
+      "title": "Greenhouse Plants",
+      "text": "Seasonal plants of many types, including annuals, herbs, vegetable starts, hanging baskets, patio color, mums, and garden favorites.",
+      "link": "/greenhouse/",
+      "linkText": "Greenhouse details"
     },
     {
-      "title": "Garden Guidance",
-      "text": "Friendly help with plant choices, porch pots, color combinations, containers, and what fits your space.",
-      "icon": "🪴"
-    },
-    {
-      "title": "Gifts & Finds",
-      "text": "Garden shop items, seeds, bulbs, planters, and thoughtful little extras for plant lovers.",
-      "icon": "🎁"
+      "icon": "\ud83e\udeb4",
+      "title": "Gifts & Seasonal Favorites",
+      "text": "Plants, planters, porch-ready color, seasonal d\u00e9cor, and easy gifts that feel personal and local.",
+      "link": "/seasons/",
+      "linkText": "View seasons"
     }
   ],
-  "seasonTitle": "Something fresh in every season",
-  "seasonIntro": "Use this area to show what customers should watch for as the greenhouse changes throughout the year.",
-  "seasons": [
+  "floristServices": [
     {
-      "title": "Spring",
-      "text": "Bedding plants, herbs, hanging baskets, vegetable starts, porch pots, and early garden color."
+      "title": "Everyday arrangements",
+      "text": "Brighten someone\u2019s day with a custom bouquet or arrangement made for birthdays, anniversaries, thank-you gifts, congratulations, or just because."
     },
     {
-      "title": "Summer",
-      "text": "Bright blooms, pollinator-friendly plants, container refreshes, perennials, and garden staples."
+      "title": "Sympathy & memorial flowers",
+      "text": "Thoughtful arrangements for funerals, memorials, graveside services, and comfort gifts. Call to talk through timing, colors, and delivery or pickup options."
     },
     {
-      "title": "Fall",
-      "text": "Mums, autumn color, seasonal containers, pumpkins and gourds when available, and cozy accents."
+      "title": "Holiday flowers",
+      "text": "Seasonal centerpieces, festive bouquets, gift plants, and arrangements for Christmas, Valentine\u2019s Day, Easter, Mother\u2019s Day, Thanksgiving, and more."
     },
     {
-      "title": "Winter",
-      "text": "Holiday greens, floral arrangements, gifts, indoor inspiration, bulbs, and seasonal displays."
+      "title": "School dances & special events",
+      "text": "Corsages, boutonnieres, small bouquets, and floral details for dances, banquets, showers, celebrations, and local events."
+    },
+    {
+      "title": "Custom requests",
+      "text": "Share the occasion, color preferences, budget, and date needed, and the shop can help you plan something personal."
     }
   ],
-  "galleryTitle": "A peek inside",
-  "galleryIntro": "Photos can be swapped or updated through Pages CMS so the site always feels current.",
+  "greenhouseItems": [
+    {
+      "title": "Spring planting",
+      "text": "Colorful annuals, starter plants, herbs, vegetable starts, hanging baskets, patio containers, and fresh inspiration as the growing season begins."
+    },
+    {
+      "title": "Summer color",
+      "text": "Plants for porches, patios, garden beds, planters, and outdoor spaces that need a warm, inviting look."
+    },
+    {
+      "title": "Fall favorites",
+      "text": "Mums, seasonal plants, autumn color, and porch-ready displays that make the entrance of a home feel festive."
+    },
+    {
+      "title": "Indoor & gift plants",
+      "text": "Plant gifts, greenery, and seasonal options for homes, offices, holidays, and everyday encouragement."
+    },
+    {
+      "title": "Helpful care guidance",
+      "text": "Ask about light, watering, placement, and plant choices so you can pick something that fits your space."
+    }
+  ],
+  "seasonCards": [
+    {
+      "season": "Spring",
+      "title": "Fresh starts for gardens and porches",
+      "text": "Spring brings greenhouse color, herbs, vegetable starts, annuals, hanging baskets, and garden-ready plants. It is the perfect time to plan beds, pots, patios, and fresh curb appeal.",
+      "items": [
+        "Annuals and garden color",
+        "Herbs and vegetable starts",
+        "Hanging baskets",
+        "Porch and patio plants"
+      ]
+    },
+    {
+      "season": "Summer",
+      "title": "Bold color and easy outdoor beauty",
+      "text": "Summer selections help keep patios, planters, gardens, and outdoor spaces feeling full and welcoming. Stop in for plants that match your sun, shade, and care needs.",
+      "items": [
+        "Planters and outdoor color",
+        "Garden plants",
+        "Gift plants",
+        "Fresh floral arrangements"
+      ]
+    },
+    {
+      "season": "Fall",
+      "title": "Warm autumn displays",
+      "text": "Fall is a favorite time for mums, porch displays, harvest color, and seasonal arrangements. It is a great season for making entryways, events, and gifts feel cozy.",
+      "items": [
+        "Mums and fall plants",
+        "Porch displays",
+        "Seasonal gifts",
+        "Autumn floral pieces"
+      ]
+    },
+    {
+      "season": "Winter",
+      "title": "Flowers, gifts, and holiday warmth",
+      "text": "Even when the greenhouse season slows down, the florist side stays helpful for holiday arrangements, centerpieces, sympathy flowers, gift plants, and winter celebrations.",
+      "items": [
+        "Holiday flowers",
+        "Centerpieces",
+        "Gift plants",
+        "Sympathy and everyday arrangements"
+      ]
+    }
+  ],
   "gallery": [
     {
-      "image": "assets/greenhouse-mums.webp",
-      "alt": "Rows of colorful mums outside Montrose Greenhouse"
+      "src": "/assets/storefront.webp",
+      "alt": "Montrose Greenhouse storefront",
+      "caption": "A familiar local stop on Vienna Road in Montrose."
     },
     {
-      "image": "assets/inside-greenhouse-plants.webp",
-      "alt": "Greenhouse tables filled with potted plants and herbs"
+      "src": "/assets/inside-greenhouse-plants.webp",
+      "alt": "Greenhouse benches filled with plants",
+      "caption": "Greenhouse benches filled with seasonal plants and fresh color."
     },
     {
-      "image": "assets/hanging-baskets.webp",
-      "alt": "Hanging flower baskets and colorful greenhouse displays"
+      "src": "/assets/hanging-baskets.webp",
+      "alt": "Hanging baskets inside greenhouse",
+      "caption": "Hanging baskets and porch-ready plants for the growing season."
     },
     {
-      "image": "assets/garden-shop.webp",
-      "alt": "Garden shop shelves with seeds, bulbs, and supplies"
+      "src": "/assets/greenhouse-mums.webp",
+      "alt": "Fall mums outside the greenhouse",
+      "caption": "Mums and warm seasonal color for fall displays."
     },
     {
-      "image": "assets/strawberry-starts.webp",
-      "alt": "Strawberry plants in trays"
+      "src": "/assets/strawberry-starts.webp",
+      "alt": "Starter plants in trays",
+      "caption": "Starter plants and garden selections for home growers."
     },
     {
-      "image": "assets/outdoor-plant-tables.webp",
-      "alt": "Outdoor plant tables and greenhouse displays"
+      "src": "/assets/outdoor-plant-tables.webp",
+      "alt": "Outdoor tables with plants",
+      "caption": "Outdoor shopping areas with plants ready to take home."
+    },
+    {
+      "src": "/assets/garden-shop.webp",
+      "alt": "Garden shop and greenhouse interior",
+      "caption": "A friendly, local greenhouse experience with plenty to explore."
+    },
+    {
+      "src": "/assets/montrose-sign.webp",
+      "alt": "Montrose Greenhouse sign",
+      "caption": "Local, seasonal, and rooted in the Montrose community."
     }
   ],
-  "contactTitle": "Send a quick message",
-  "contactIntro": "Ask about flowers, plant availability, seasonal items, or a custom request. A short note is completely fine.",
-  "footerText": "Fresh flowers, seasonal plants, herbs, gifts, and greenhouse inspiration in Montrose, Michigan."
+  "about": {
+    "headline": "A local greenhouse and florist with a four-season heart.",
+    "intro": "Montrose Greenhouse \u2014 His & Herbs serves the Montrose area with a mix of floral design, greenhouse plants, herbs, seasonal color, plant gifts, and helpful hometown service.",
+    "body": [
+      "The business brings together two things people love: flowers for meaningful moments and plants that make homes, porches, patios, gardens, and gifts feel alive. Whether someone needs a sympathy arrangement, a cheerful bouquet, spring planting help, fall mums, or a seasonal gift, the shop is designed to feel approachable and useful.",
+      "Selections naturally change throughout the year, which is part of what makes a greenhouse fun to visit. Customers can stop by to see what is fresh, call ahead for current availability, or use the contact form to start a floral or plant request."
+    ],
+    "values": [
+      "Warm, personal service",
+      "Seasonal plants and flowers",
+      "Helpful guidance",
+      "Local Montrose roots",
+      "Florist support year-round"
+    ]
+  },
+  "contactIntro": "Have a floral request, plant question, or seasonal order idea? Send the details here and the shop can follow up. For same-day or urgent requests, calling is best.",
+  "formOptions": {
+    "requestTypes": [
+      "Fresh flower arrangement",
+      "Sympathy or memorial flowers",
+      "Holiday or seasonal arrangement",
+      "Greenhouse plant question",
+      "Hanging basket or porch plant",
+      "Event or dance flowers",
+      "Gift plant or planter",
+      "General question"
+    ],
+    "budgetRanges": [
+      "Not sure yet",
+      "Under $50",
+      "$50\u2013$100",
+      "$100\u2013$200",
+      "$200+"
+    ],
+    "preferredContact": [
+      "Call",
+      "Text",
+      "Email",
+      "No preference"
+    ]
+  }
 }

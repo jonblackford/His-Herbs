@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Montrose Greenhouse — His &amp; Herbs</title>
+  <meta name="description" content="Contact Montrose Greenhouse — His &amp; Herbs for floral requests, plant questions, greenhouse availability, and seasonal orders." />
+  <meta name="theme-color" content="#4e6a3c" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta property="og:title" content="Contact | Montrose Greenhouse — His &amp; Herbs" />
+  <meta property="og:description" content="Contact Montrose Greenhouse — His &amp; Herbs for floral requests, plant questions, greenhouse availability, and seasonal orders." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/storefront.webp" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="/" aria-label="Montrose Greenhouse home">
+      <span class="brand-mark" aria-hidden="true">🌿</span>
+      <span><span class="brand-title" data-text="business.name">Montrose Greenhouse — His & Herbs</span><span class="brand-subtitle" data-text="business.tagline">Full-service florist & seasonal greenhouse</span></span>
+    </a>
+    <button class="menu-btn" type="button" data-menu-button aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav-links" id="site-nav" data-nav-links aria-label="Main navigation"><a href="/">Home</a>
+<a href="/about/">About</a>
+<a href="/florist/">Florist</a>
+<a href="/greenhouse/">Greenhouse</a>
+<a href="/seasons/">Seasons</a>
+<a href="/gallery/">Gallery</a>
+<a href="/contact/" aria-current="page">Contact</a></nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container page-hero-grid">
+    <div>
+      <div class="breadcrumb"><a href="/">Home</a><span>/</span><span>Contact</span></div>
+      <span class="eyebrow">Call, visit, or send a request</span>
+      <h1>Contact</h1>
+      <p>Have a floral request, plant question, or seasonal order idea? Send the details here and the shop can follow up. For same-day or urgent requests, calling is best.</p>
+    </div>
+    <div class="page-hero-img"><img src="/assets/montrose-sign.webp" alt="" loading="eager"></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container contact-grid">
+    <aside class="visit-card">
+      <span class="eyebrow">Visit the shop</span>
+      <h2>Montrose Greenhouse — His & Herbs</h2>
+      <div class="contact-list">
+        <div class="contact-item"><strong>Phone</strong><a data-href="business.phoneHref" href="tel:+18106394750" data-text="business.phone">(810) 639-4750</a></div>
+        <div class="contact-item"><strong>Address</strong><a data-href="business.mapsUrl" href="https://www.google.com/maps/search/?api=1&query=11440+Vienna+Rd+Montrose+MI+48457" target="_blank" rel="noopener"><span data-text="business.addressLine1">11440 Vienna Rd</span><br><span data-text="business.addressLine2">Montrose, MI 48457</span></a></div>
+        <div class="contact-item"><strong>Hours note</strong><span data-text="business.hoursNote">Open all four seasons. Seasonal hours and plant availability may change, so please call before visiting for specific items.</span></div>
+        <div class="contact-item"><strong>Facebook</strong><a data-href="business.facebookUrl" href="https://www.facebook.com/p/Montrose-Greenhouse-100063505872551/" target="_blank" rel="noopener">View Facebook page</a></div>
+      </div>
+      <div class="map-box"><strong>Tip:</strong> For same-day flowers, funeral orders, or time-sensitive requests, calling the shop directly is usually the fastest option.</div>
+    </aside>
+    <section class="form-card" aria-labelledby="contact-form-title">
+      <div class="form-intro"><div><span class="eyebrow">Request form</span><h2 id="contact-form-title">Send the details</h2></div><div class="form-note">We’ll follow up with you.</div></div>
+      <p class="muted">Start with the basics. Extra details are optional, but they can help the shop better understand your request.</p>
+      <form name="contact" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden"><label>Do not fill this out: <input name="bot-field"></label></p>
+        <fieldset>
+          <legend>Your contact information</legend>
+          <div class="form-grid">
+            <div class="field"><label for="name">Name *</label><input id="name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="phone">Phone *</label><input id="phone" name="phone" autocomplete="tel" required></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+            <div class="field"><label for="preferred-contact">Preferred contact method</label><select id="preferred-contact" name="preferred_contact" data-options="preferredContact"><option value="">Choose one</option><option>Call</option><option>Text</option><option>Email</option><option>No preference</option></select></div>
+            <div class="field full"><label for="city">City / area</label><input id="city" name="city" autocomplete="address-level2" placeholder="Example: Montrose, Clio, Flushing, Birch Run"></div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>What can we help with?</legend>
+          <div class="form-grid">
+            <div class="field"><label for="request-type">Request type *</label><select id="request-type" name="request_type" data-options="requestType" required><option value="">Choose one</option><option>Fresh flower arrangement</option><option>Sympathy or memorial flowers</option><option>Holiday or seasonal arrangement</option><option>Greenhouse plant question</option><option>Hanging basket or porch plant</option><option>Event or dance flowers</option><option>Gift plant or planter</option><option>General question</option></select></div>
+            <div class="field"><label for="date-needed">Date needed</label><input id="date-needed" name="date_needed" type="date"></div>
+            <div class="field"><label for="occasion">Occasion</label><input id="occasion" name="occasion" placeholder="Birthday, sympathy, holiday, dance, gift, etc."></div>
+            <div class="field"><label for="budget">Budget range</label><select id="budget" name="budget_range" data-options="budgetRange"><option value="">Choose one</option><option>Not sure yet</option><option>Under $50</option><option>$50–$100</option><option>$100–$200</option><option>$200+</option></select></div>
+            <div class="field full"><label for="message">Message / details *</label><textarea id="message" name="message" required placeholder="Tell us what you are looking for, colors you like, plant needs, delivery or pickup details, card message, or anything helpful."></textarea></div>
+          </div>
+        </fieldset>
+        <details class="details-box">
+          <summary>Optional pickup, delivery, and recipient details</summary>
+          <div class="details-content">
+            <div class="form-grid">
+              <div class="field full"><span class="legend-label">Pickup or delivery?</span><div class="radio-row"><label class="choice"><input type="radio" name="pickup_or_delivery" value="Pickup"> Pickup</label><label class="choice"><input type="radio" name="pickup_or_delivery" value="Delivery"> Delivery</label><label class="choice"><input type="radio" name="pickup_or_delivery" value="Not sure"> Not sure</label></div><p class="hint">Call to confirm delivery availability, fees, and timing.</p></div>
+              <div class="field"><label for="recipient-name">Recipient name</label><input id="recipient-name" name="recipient_name"></div>
+              <div class="field"><label for="recipient-phone">Recipient phone</label><input id="recipient-phone" name="recipient_phone"></div>
+              <div class="field full"><label for="delivery-address">Delivery address</label><textarea id="delivery-address" name="delivery_address" placeholder="Street address, city, and any delivery notes."></textarea></div>
+              <div class="field full"><label for="card-message">Card message</label><textarea id="card-message" name="card_message" placeholder="Optional message to include with flowers or gift."></textarea></div>
+            </div>
+          </div>
+        </details>
+        <details class="details-box">
+          <summary>Optional event details</summary>
+          <div class="details-content">
+            <div class="form-grid">
+              <div class="field"><label for="event-type">Event type</label><input id="event-type" name="event_type" placeholder="Wedding, shower, banquet, school dance, etc."></div>
+              <div class="field"><label for="guest-count">Approximate guest count</label><input id="guest-count" name="guest_count"></div>
+              <div class="field full"><label for="event-notes">Event notes</label><textarea id="event-notes" name="event_notes" placeholder="Venue, colors, inspiration, needed pieces, setup timing, or other details."></textarea></div>
+            </div>
+          </div>
+        </details>
+        <p class="required-note">Fields marked with * are required. The shop will use your information only to follow up about this request.</p>
+        <label class="consent"><input type="checkbox" name="contact_permission" value="Yes" required> I understand Montrose Greenhouse — His & Herbs may contact me about this request. *</label>
+        <label class="consent"><input type="checkbox" name="newsletter_opt_in" value="Yes"> I would like to receive occasional updates about seasonal plants, flowers, and specials.</label>
+        <button class="btn btn-primary btn-wide" type="submit">Send request</button>
+      </form>
+    </section>
+  </div>
+</section>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand" data-text="business.name">Montrose Greenhouse — His & Herbs</div>
+        <p><span data-text="business.address">11440 Vienna Rd, Montrose, MI 48457</span><br><a data-href="business.phoneHref" href="tel:+18106394750" data-text="business.phone">(810) 639-4750</a></p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="/">Home</a>
+<a href="/about/">About</a>
+<a href="/florist/">Florist</a>
+<a href="/greenhouse/">Greenhouse</a>
+<a href="/seasons/">Seasons</a>
+<a href="/gallery/">Gallery</a>
+<a href="/contact/">Contact</a></nav>
+    </div>
+    <div class="footer-small">
+      <p>© <span id="year">2026</span> Montrose Greenhouse — His & Herbs.</p>
+      <p>Open all four seasons • Call for current availability.</p>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="/assets/site.js"></script></body></html>

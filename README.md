@@ -1,23 +1,27 @@
 # Montrose Greenhouse — His & Herbs Website
 
-Static website package designed for Netlify hosting, Netlify Forms, GitHub version control, and Pages CMS editing.
+This is a multi-page static website for Montrose Greenhouse — His & Herbs. It is designed for:
 
-## What changed in this version
+- Netlify hosting
+- Netlify Forms contact submissions
+- GitHub repository storage
+- Pages CMS editing through `content/site.json`
 
-- Warmer, friendlier earthy design
-- Cleaner homepage spacing and section flow
-- Less intimidating contact form
-- Full Netlify contact collection is still included
-- Optional form details are tucked into expandable sections
-- Mobile layout and header behavior improved
-- Thank-you page restyled to match the site
+## Main pages
 
-## Recommended setup
+- `/` Home
+- `/about/` About
+- `/florist/` Florist Services
+- `/greenhouse/` Greenhouse
+- `/seasons/` Seasonal Favorites
+- `/gallery/` Gallery
+- `/contact/` Contact form
+- `/thank-you/` Form confirmation page
 
-1. Push this folder to a GitHub repository.
-2. Connect the repository to Netlify.
-3. Deploy the site.
-4. Confirm Netlify detects the `contact` form.
-5. Connect Pages CMS to the same GitHub repository for customer-friendly editing.
+## Important files
 
-The customer can edit wording, service cards, seasonal highlights, and gallery photos in `content/site.json` through Pages CMS.
+- `assets/styles.css` controls the design.
+- `assets/site.js` loads editable content from `content/site.json`.
+- `content/site.json` is the main customer-editable content file.
+- `.pages.yml` configures Pages CMS.
+- `netlify.toml` tells Netlify to publish the current folder.

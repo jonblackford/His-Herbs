@@ -1,13 +1,13 @@
 {
-  "name": "Montrose Greenhouse — His & Herbs",
+  "name": "Montrose Greenhouse \u2014 His & Herbs",
   "short_name": "His & Herbs",
-  "start_url": ".",
+  "theme_color": "#4e6a3c",
+  "background_color": "#fff9ec",
   "display": "standalone",
-  "background_color": "#fffaf0",
-  "theme_color": "#315c32",
+  "start_url": "/",
   "icons": [
     {
-      "src": "assets/favicon.svg",
+      "src": "/assets/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }

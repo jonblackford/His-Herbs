@@ -1,36 +1,26 @@
 # Pages CMS Setup
 
-Pages CMS lets the customer edit the content file without touching code.
+This project includes `.pages.yml` and `content/site.json` so the business can edit website content without touching code.
 
-## Editable content
+## Setup overview
 
-The customer can edit:
+1. Keep this site in a GitHub repository.
+2. Connect the repository to Pages CMS.
+3. Pages CMS will read `.pages.yml`.
+4. The editable area should appear as **Website Content**.
+5. Customer edits update `content/site.json`.
+6. Netlify automatically redeploys after GitHub changes.
 
-- Business name
-- Tagline
-- Hero text
-- Announcement or hours note
-- Phone/address/map/Facebook links
-- About section
-- Services
-- Seasonal highlights
-- Gallery photos
-- Contact intro text
-- Footer text
+## Image uploads
 
-## Content file
+Uploaded images should go into:
 
-The editable content lives at:
+`assets/uploads/`
 
-`content/site.json`
+The image path used in content should start with:
 
-The Pages CMS configuration is:
+`/assets/uploads/filename.jpg`
 
-`.pages.yml`
+Existing built-in images are stored in:
 
-## Recommended workflow
-
-1. Connect Pages CMS to the GitHub repository.
-2. Let the customer edit the website content in Pages CMS.
-3. When they save, Pages CMS commits changes to GitHub.
-4. Netlify automatically redeploys the updated site.
+`assets/`

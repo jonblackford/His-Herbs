@@ -1,136 +1,116 @@
 media:
   input: assets/uploads
   output: /assets/uploads
-  rename: safe
-  extensions: [png, jpg, jpeg, webp, gif, pdf]
 
 content:
   - name: site
     label: Website Content
     type: file
     path: content/site.json
-    format: json
     fields:
-      - name: businessName
-        label: Business Name
-        type: string
-        required: true
-      - name: tagline
-        label: Tagline
-        type: string
-      - name: heroTitle
-        label: Hero Title
-        type: string
-        required: true
-      - name: heroText
-        label: Hero Text
-        type: text
-      - name: announcement
-        label: Announcement / Hours Note
-        type: string
-      - name: primaryButtonText
-        label: Primary Button Text
-        type: string
-      - name: secondaryButtonText
-        label: Secondary Button Text
-        type: string
-      - name: phone
-        label: Phone Number
-        type: string
-      - name: phoneHref
-        label: Phone Link
-        type: string
-        description: Use tel:+18106394750 format.
-      - name: address
-        label: Address
-        type: string
-      - name: mapUrl
-        label: Map Link
-        type: string
-      - name: hoursNote
-        label: Hours Note
-        type: text
-      - name: facebookUrl
-        label: Facebook Link
-        type: string
-      - name: aboutTitle
-        label: About Section Title
-        type: string
-      - name: aboutText
-        label: About Section Text
-        type: text
-      - name: aboutImage
-        label: About Image
-        type: image
-      - name: servicesTitle
-        label: Services Title
-        type: string
-      - name: servicesIntro
-        label: Services Intro
-        type: text
+      - name: business
+        label: Business Info
+        type: object
+        fields:
+          - { name: name, label: Business Name, type: string }
+          - { name: shortName, label: Short Name, type: string }
+          - { name: tagline, label: Tagline, type: string }
+          - { name: phone, label: Phone, type: string }
+          - { name: phoneHref, label: Phone Link, type: string }
+          - { name: address, label: Full Address, type: string }
+          - { name: addressLine1, label: Address Line 1, type: string }
+          - { name: addressLine2, label: Address Line 2, type: string }
+          - { name: mapsUrl, label: Google Maps Link, type: string }
+          - { name: facebookUrl, label: Facebook Link, type: string }
+          - { name: hoursNote, label: Hours Note, type: text }
+      - name: home
+        label: Homepage
+        type: object
+        fields:
+          - { name: eyebrow, label: Small Intro Line, type: string }
+          - { name: headline, label: Headline, type: string }
+          - { name: intro, label: Intro Paragraph, type: text }
+          - { name: seasonNoteTitle, label: Season Note Title, type: string }
+          - { name: seasonNoteText, label: Season Note Text, type: text }
+      - name: introCards
+        label: Homepage Intro Cards
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
       - name: services
-        label: Services
+        label: Main Services
         type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{title}"
+        list: true
         fields:
-          - name: icon
-            label: Icon / Emoji
-            type: string
-          - name: title
-            label: Service Title
-            type: string
-          - name: text
-            label: Service Description
-            type: text
-      - name: seasonTitle
-        label: Seasonal Section Title
-        type: string
-      - name: seasonIntro
-        label: Seasonal Intro
-        type: text
-      - name: seasons
-        label: Seasonal Highlights
+          - { name: icon, label: Icon, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: link, label: Link, type: string }
+          - { name: linkText, label: Link Text, type: string }
+      - name: floristServices
+        label: Florist Services
         type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{title}"
+        list: true
         fields:
-          - name: title
-            label: Season Name
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - name: greenhouseItems
+        label: Greenhouse Items
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - name: seasonCards
+        label: Seasonal Cards
+        type: object
+        list: true
+        fields:
+          - { name: season, label: Season Label, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - name: items
+            label: Bullet Items
             type: string
-          - name: text
-            label: Season Description
-            type: text
-      - name: galleryTitle
-        label: Gallery Title
-        type: string
-      - name: galleryIntro
-        label: Gallery Intro
-        type: text
+            list: true
       - name: gallery
-        label: Gallery Photos
+        label: Gallery
         type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{alt}"
+        list: true
         fields:
-          - name: image
-            label: Image
-            type: image
-          - name: alt
-            label: Image Description / Alt Text
+          - { name: src, label: Image Path, type: image }
+          - { name: alt, label: Alt Text, type: string }
+          - { name: caption, label: Caption, type: text }
+      - name: about
+        label: About Page
+        type: object
+        fields:
+          - { name: headline, label: Headline, type: string }
+          - { name: intro, label: Intro, type: text }
+          - name: body
+            label: Body Paragraphs
+            type: text
+            list: true
+          - name: values
+            label: Value Pills
             type: string
-      - name: contactTitle
-        label: Contact Section Title
-        type: string
-      - name: contactIntro
-        label: Contact Section Intro
-        type: text
-      - name: footerText
-        label: Footer Text
-        type: text
+            list: true
+      - { name: contactIntro, label: Contact Page Intro, type: text }
+      - name: formOptions
+        label: Contact Form Dropdown Options
+        type: object
+        fields:
+          - name: requestTypes
+            label: Request Types
+            type: string
+            list: true
+          - name: budgetRanges
+            label: Budget Ranges
+            type: string
+            list: true
+          - name: preferredContact
+            label: Preferred Contact Options
+            type: string
+            list: true

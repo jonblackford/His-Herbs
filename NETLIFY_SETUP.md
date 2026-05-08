@@ -1,14 +1,22 @@
 # Netlify Setup
 
-1. Create or open the GitHub repository for the site.
-2. Upload the contents of this folder to the repository root.
-3. In Netlify, choose **Add new site → Import an existing project**.
-4. Connect GitHub and choose the repository.
-5. Use these build settings:
+1. Upload this project to a GitHub repository.
+2. In Netlify, choose **Add new site** → **Import an existing project**.
+3. Connect the GitHub repository.
+4. Build settings:
    - Build command: leave blank
-   - Publish directory: `/`
-6. Deploy the site.
-7. After deploy, submit a test message through the contact form.
-8. In Netlify, go to **Forms** and confirm the `contact` form appears.
+   - Publish directory: `.`
+5. Deploy.
 
-The included `netlify.toml` keeps the static site configuration simple and Netlify-friendly.
+## Contact form submissions
+
+After the first successful deploy, Netlify should detect the form named `contact` on `/contact/`.
+
+To view messages:
+
+1. Open the site in Netlify.
+2. Go to **Forms**.
+3. Open the `contact` form.
+4. View/export submissions.
+
+Test the form once after publishing. Netlify Forms usually appear after the first deployed form submission or after Netlify scans the deployed HTML.

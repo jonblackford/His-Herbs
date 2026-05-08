@@ -1,41 +1,48 @@
-# Netlify Contact Form Guide
+# Contact Form Guide
 
-The form on this site is built for Netlify Forms. It is a plain HTML form, so Netlify should detect it automatically when the site deploys.
+The full contact form is on:
 
-## Form name
+`/contact/`
 
-`contact`
+The form is intentionally organized into friendly sections:
 
-## Required fields
+1. Contact information
+2. Request basics
+3. Optional pickup/delivery/recipient details
+4. Optional event details
+5. Consent and opt-in
 
-- Full name
-- Email
-- Request type
-- Message
-- Contact permission checkbox
+## Netlify form details
 
-## Optional contact/customer fields collected
+The form uses:
 
+- `name="contact"`
+- `method="POST"`
+- `data-netlify="true"`
+- `netlify-honeypot="bot-field"`
+- Hidden `form-name` field
+- Thank-you redirect to `/thank-you/`
+
+## Collected information
+
+The form can collect:
+
+- Name
 - Phone
+- Email
+- City/area
 - Preferred contact method
+- Request type
 - Date needed
 - Occasion
 - Budget range
-- Colors or style
-- City
+- Message/details
 - Pickup or delivery preference
-- Recipient name
+- Recipient information
 - Delivery address
-- Customer contact list opt-in
+- Card message
+- Event details
+- Contact permission
+- Seasonal update opt-in
 
-## Where submissions appear
-
-After deployment, go to:
-
-**Netlify Dashboard → Site → Forms → contact**
-
-From there, submissions can be viewed, exported as CSV, or connected to notifications.
-
-## Important note
-
-The form is intentionally shorter on the page, but it still collects full request details. Extra fields are placed inside optional expandable sections so customers are not overwhelmed.
+For urgent or same-day requests, customers should still call the shop directly.
