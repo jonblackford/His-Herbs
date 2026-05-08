@@ -1,40 +1,36 @@
-# Pages CMS Setup Guide
+# Pages CMS Setup
 
-Pages CMS is the free editing layer for this project. It lets the customer edit `content/site.json` through a friendly interface instead of touching code.
+Pages CMS lets the customer edit the content file without touching code.
 
-## What the customer can edit
+## Editable content
 
-The customer can update:
+The customer can edit:
 
-- Business name and tagline
-- Hero headline and intro text
-- Announcement / hours note
-- Phone number and address
+- Business name
+- Tagline
+- Hero text
+- Announcement or hours note
+- Phone/address/map/Facebook links
 - About section
 - Services
 - Seasonal highlights
 - Gallery photos
-- Contact section intro
+- Contact intro text
 - Footer text
 
-## Setup steps
+## Content file
 
-1. Upload this project to GitHub.
-2. Go to the Pages CMS hosted app.
-3. Sign in with GitHub.
-4. Install the Pages CMS GitHub App on the account that owns the `His-Herbs` repository.
-5. Open the `His-Herbs` repository in Pages CMS.
-6. Pages CMS should automatically find `.pages.yml` in the repository root.
-7. Open **Website Content** and edit the fields.
-8. Save changes.
-9. Netlify will redeploy the website after the content file is updated in GitHub.
+The editable content lives at:
 
-## Customer access
+`content/site.json`
 
-For the easiest setup, the customer should have a GitHub account and be granted access to the repository. They do not need to edit code directly; they only need to use the Pages CMS interface.
+The Pages CMS configuration is:
 
-## Important notes
+`.pages.yml`
 
-- Uploaded customer photos will go into `assets/uploads/`.
-- Keep image file sizes reasonable so the website stays fast.
-- The site reads content from `content/site.json`, so most page edits should happen there.
+## Recommended workflow
+
+1. Connect Pages CMS to the GitHub repository.
+2. Let the customer edit the website content in Pages CMS.
+3. When they save, Pages CMS commits changes to GitHub.
+4. Netlify automatically redeploys the updated site.

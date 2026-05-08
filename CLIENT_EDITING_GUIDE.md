@@ -1,32 +1,19 @@
-# Simple Website Editing Guide
+# Client Editing Guide
 
-This website is designed so you can update basic information without touching website code.
+Use Pages CMS to update the website text and photos.
 
-## How to edit the site
+## Best sections to update often
 
-1. Log in to Pages CMS.
-2. Open the `His-Herbs` website repository.
-3. Click **Website Content**.
-4. Update the fields you need to change.
-5. Save.
-6. Wait a minute or two for the live website to update.
-
-## What to update regularly
-
-- Current hours or seasonal hours note
-- Plant availability
+- Announcement / hours note
+- Services
 - Seasonal highlights
 - Gallery photos
-- Services offered
-- Floral request wording
+- Contact intro
 
 ## Photo tips
 
-- Use clear, bright photos.
-- Landscape photos work best for wide sections.
-- Keep photos under about 1–2 MB when possible.
-- Add short descriptions for each photo so the website remains accessible.
+Use clear horizontal or square photos when possible. Greenhouse, flower, plant, storefront, and seasonal photos work best.
 
-## Contact form submissions
+## Contact form
 
-Contact form submissions are handled in Netlify. If email notifications are turned on, new requests can also be sent directly to the business email.
+The contact form does not need regular editing. Submissions are collected in Netlify under **Forms → contact**.

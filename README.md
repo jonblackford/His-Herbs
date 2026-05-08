@@ -1,26 +1,23 @@
 # Montrose Greenhouse — His & Herbs Website
 
-This is a static website designed for free hosting on Netlify, full contact collection through Netlify Forms, and free customer editing through Pages CMS.
+Static website package designed for Netlify hosting, Netlify Forms, GitHub version control, and Pages CMS editing.
 
-## What is included
+## What changed in this version
 
-- `index.html` — the public website
-- `content/site.json` — editable site content
-- `.pages.yml` — Pages CMS configuration
-- `assets/` — photos, favicon, and upload folder
-- `thank-you/index.html` — contact form confirmation page
-- `netlify.toml` — Netlify hosting configuration
-- `PAGES_CMS_SETUP.md` — how to give the customer editing access
-- `NETLIFY_SETUP.md` — how to host the site and enable forms
-- `CONTACT_FORM_NETLIFY_GUIDE.md` — how the full contact form works and where submissions go
-- `CLIENT_EDITING_GUIDE.md` — simple instructions for the business owner
+- Warmer, friendlier earthy design
+- Cleaner homepage spacing and section flow
+- Less intimidating contact form
+- Full Netlify contact collection is still included
+- Optional form details are tucked into expandable sections
+- Mobile layout and header behavior improved
+- Thank-you page restyled to match the site
 
-## Best free setup
+## Recommended setup
 
-Use:
+1. Push this folder to a GitHub repository.
+2. Connect the repository to Netlify.
+3. Deploy the site.
+4. Confirm Netlify detects the `contact` form.
+5. Connect Pages CMS to the same GitHub repository for customer-friendly editing.
 
-1. GitHub repository for the files
-2. Netlify for hosting and contact form handling
-3. Pages CMS for easy editing of the text, services, seasonal highlights, and photos
-
-The customer edits the website by signing into Pages CMS with GitHub. When they save changes, Pages CMS commits the update to the GitHub repo and Netlify redeploys the site.
+The customer can edit wording, service cards, seasonal highlights, and gallery photos in `content/site.json` through Pages CMS.

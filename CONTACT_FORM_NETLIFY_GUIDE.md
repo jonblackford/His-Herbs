@@ -1,61 +1,41 @@
 # Netlify Contact Form Guide
 
-The homepage includes a full Netlify-ready contact form named `contact`.
+The form on this site is built for Netlify Forms. It is a plain HTML form, so Netlify should detect it automatically when the site deploys.
 
-## What the form collects
+## Form name
 
-The form collects:
+`contact`
 
-- First name
-- Last name
+## Required fields
+
+- Full name
 - Email
+- Request type
+- Message
+- Contact permission checkbox
+
+## Optional contact/customer fields collected
+
 - Phone
 - Preferred contact method
-- City
-- Request type
 - Date needed
 - Occasion
 - Budget range
+- Colors or style
+- City
 - Pickup or delivery preference
-- Recipient name, if floral delivery
-- Delivery address, if applicable
-- Full message/details
+- Recipient name
+- Delivery address
 - Customer contact list opt-in
-- Contact permission confirmation
 
-## Why it works with Netlify
+## Where submissions appear
 
-The form is plain HTML inside `index.html`, which is what Netlify needs in order to detect it during deployment.
+After deployment, go to:
 
-The form includes:
+**Netlify Dashboard → Site → Forms → contact**
 
-```html
-<form name="contact" id="contact-form" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contact" />
-</form>
-```
+From there, submissions can be viewed, exported as CSV, or connected to notifications.
 
-The form also includes a hidden honeypot field named `bot-field` to help reduce spam.
+## Important note
 
-## How to view submissions
-
-After deploying on Netlify:
-
-1. Open the site in Netlify.
-2. Go to **Forms**.
-3. Select the form named **contact**.
-4. View each submission, export submissions as a CSV, or set up email notifications.
-
-## How to send submissions to the business email
-
-1. In Netlify, open the deployed site.
-2. Go to **Forms**.
-3. Open the **contact** form.
-4. Go to **Form notifications**.
-5. Add an email notification for the business owner.
-
-## Important notes
-
-- The form must be tested on the live Netlify URL, not by opening the file directly on a computer.
-- If the form is not showing up in Netlify, redeploy the site and make sure form detection is enabled in the Netlify site settings.
-- Do not remove the `name`, `method`, `data-netlify`, `netlify-honeypot`, or hidden `form-name` fields from the form.
+The form is intentionally shorter on the page, but it still collects full request details. Extra fields are placed inside optional expandable sections so customers are not overwhelmed.
